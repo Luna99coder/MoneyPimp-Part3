@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Characterization"
+        android:textSize="12sp"
+        android:layout_marginBottom="4dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerCategoryType"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:entries="@array/category_types"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etCategoryName"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Sub-Category Name"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etCategoryBudget"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Monthly Budget"
+        android:inputType="numberDecimal"/>
+
+</LinearLayout>
