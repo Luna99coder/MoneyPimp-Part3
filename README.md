@@ -20,7 +20,7 @@
 - ✅ SQLite Database
 
 ## Demo Video
-[Link to your YouTube video - add here after recording]
+[https://youtube.com/shorts/dbbA-86yePE?feature=share]
 
 ## APK File
 Submitted separately as required
